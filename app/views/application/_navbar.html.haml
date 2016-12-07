@@ -13,17 +13,15 @@
 		.navbar-collapse.collapse#stamp-navigation
 			%ul.nav.navbar-nav.navbar-left.main-navigation.small-text
 				%li
-					%a{ href: "#{swell_media.root_path()}#section1" }
-						Services
-				%li
-					%a{ href: "#{swell_media.root_path()}#section2" }
-						About
-				-# %li
-					%a{ href: "#{swell_media.root_path()}#section3" }
-						Testimonials
-				%li
 					%a{ href: swell_media.articles_path() }
 						Articles
+				%li
+					%a{ href: "/about" }
+						About
+				%li
+					%a{ href: "/contacts/new" }
+						Contact Us
+				
 
 			%ul.nav.navbar-nav.navbar-right.login-register.small-text
 				-# %li.login.js-login

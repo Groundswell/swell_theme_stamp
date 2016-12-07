@@ -1,3 +1,4 @@
 = SwellThemeStamp
 
-This project rocks and uses MIT-LICENSE.
+- templates not done
+- javascript not implemented at all
